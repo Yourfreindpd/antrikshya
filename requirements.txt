@@ -1,0 +1,26 @@
+# ==============================================================================
+# ISRO SIH 26172: Edge Voice Activator & ASR Pipeline Dependencies
+# ==============================================================================
+
+# Core Numerical & Machine Learning
+torch>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio Processing & Feature Extraction
+librosa>=0.10.0
+soundfile>=0.12.0
+sounddevice>=0.4.6
+
+# ASR Streaming Server & Dashboard
+fastapi>=0.100.0
+uvicorn>=0.23.0
+websockets>=11.0
+faster-whisper>=1.0.0
+SpeechRecognition>=3.10.0
+psutil>=5.9.0
+pyserial>=3.5
+
+# Visualization & Utilities
+matplotlib>=3.7.0
+tqdm>=4.65.0
